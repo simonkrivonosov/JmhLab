@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package Dto;
+
+message DtoExample {
+	uint32 id = 1;
+	string name = 2;
+	repeated uint32 numbers = 3;
+	InnerDto inner_dto = 4;
+}
+
+message InnerDto {
+	string name = 1;
+	double x = 2;
+}

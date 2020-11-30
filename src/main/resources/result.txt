@@ -1,0 +1,9 @@
+{
+  "id" : 1,
+  "name" : "example",
+  "numbers" : [ 5, 3, 3, 1, 0 ],
+  "innerDto" : {
+    "name" : "innerDto",
+    "x" : 3.141592653589793
+  }
+}
