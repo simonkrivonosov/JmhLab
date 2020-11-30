@@ -1,10 +1,17 @@
+| Benchmark  | Mode | Cnt | Score | Error | Units |
+|:----:|:---------:|:----:|:----:|:---------:|:----:|
+| JsonBenchmark.ProtobufDeserealizationBench.testDeserialization  | thrpt | 5 | | 23336687,876 | ± 1230146,680 | ops/s |
+| JsonBenchmark.ProtobufDeserealizationBench.testDeserialization  | avgt | 5 | | ≈ 10⁻⁷ |  | s/op |
+
+
 Protobuf results:
 
 1)Serealizaiton
 
-Benchmark                                                        Mode  Cnt         Score         Error  Units
-JsonBenchmark.ProtobufDeserealizationBench.testDeserialization  thrpt    5  23336687,876 ± 1230146,680  ops/s
-JsonBenchmark.ProtobufDeserealizationBench.testDeserialization   avgt    5        ≈ 10⁻⁷                 s/op
+| Benchmark  | Mode | Cnt | Score | Error | Units |
+|:----:|:---------:|:----:|:----:|:---------:|:----:|
+| JsonBenchmark.ProtobufDeserealizationBench.testDeserialization  | thrpt | 5 | | 23336687,876 | ± 1230146,680 | ops/s |
+| JsonBenchmark.ProtobufDeserealizationBench.testDeserialization  | avgt | 5 | | ≈ 10⁻⁷ |  | s/op |
 
 2)Deserealization
 
